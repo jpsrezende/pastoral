@@ -7,3 +7,7 @@ def index(request):
 
 def cadastro_funcionario(request):
     return render(request, 'cadastro_funcionario.html')
+
+
+def template_base(request):
+    return render(request, 'template_base.html')
