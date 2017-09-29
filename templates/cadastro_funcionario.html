@@ -32,22 +32,74 @@
 					<div class="card-block">
 						<form class="form">
 							<div class="form-body">
+                                <h4 class="form-section"><i class="icon-eye6"></i> Informações de Login</h4>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="projectinput1">Nome de Usuario </label>
+                                            <input type="text" id="projectinput1" class="form-control" placeholder="Nome de Usuario" name="usuario">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+									<div class="col-md-6">
+                                        <div class="form-group">
+											<label for="projectinput2">Senha</label>
+											<input type="password" id="projectinput2" class="form-control" placeholder="Senha" name="senha">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="projectinput2">Repetir Senha</label>
+											<input type="password" id="projectinput2" class="form-control" placeholder="Senha" name="senha">
+										</div>
+									</div>
+								</div>
+
 								<h4 class="form-section"><i class="icon-head"></i> Informação Pessoal</h4>
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label for="projectinput1">First Name</label>
-											<input type="text" id="projectinput1" class="form-control" placeholder="First Name" name="fname">
+											<label for="projectinput1">Nome</label>
+											<input type="text" id="projectinput1" class="form-control" placeholder="Nome" name="fname">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label for="projectinput2">Last Name</label>
-											<input type="text" id="projectinput2" class="form-control" placeholder="Last Name" name="lname">
+											<label for="projectinput2">Sobrenome</label>
+											<input type="text" id="projectinput2" class="form-control" placeholder="Sobrenome" name="lname">
 										</div>
 									</div>
 								</div>
-								<div class="row">
+
+                                <div class="row">
+
+                                    <div class="col-md-6">
+										<div class="form-group">
+											<label for="projectinput5">Sexo</label>
+											<select id="projectinput5" name="interested" class="form-control">
+												<option value="none" selected="" disabled="">Selecionar</option>
+												<option value="masculino">Masculino</option>
+												<option value="feminino">Feminino</option>
+											</select>
+										</div>
+									</div>
+
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="issueinput4">Data de nascimento</label>
+                                            <input type="date" id="issueinput4" class="form-control" name="datefixed" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Fixed">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+								<h4 class="form-section"><i class="icon-clipboard4"></i> Informação Geral</h4>
+
+                                <div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
 											<label for="projectinput3">E-mail</label>
@@ -61,8 +113,6 @@
 										</div>
 									</div>
 								</div>
-
-								<h4 class="form-section"><i class="icon-clipboard4"></i> Informação Geral</h4>
 
 								<div class="form-group">
 									<label for="companyName">Company</label>
