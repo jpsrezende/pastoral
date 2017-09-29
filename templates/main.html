@@ -118,11 +118,9 @@
 
             <div class="main-menu-content">
                 <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
-                    <li class=" nav-item"><a href="index.html"><i class="icon-home3"></i><span data-i18n="nav.dash.main" class="menu-title">Painel de Controle</span><span class="tag tag tag-primary tag-pill float-xs-right mr-2">2</span></a>
+                    <li class=" nav-item"><a href="index.html"><i class="icon-home3"></i><span data-i18n="nav.dash.main" class="menu-title">Painel de Controle</span></a>
                         <ul class="menu-content">
                             <li class="not-active"><a href="{% url 'index' %}" data-i18n="nav.dash.main" class="menu-item">Página de Gráficos</a>
-                            </li>
-                            <li class="not-active"><a href="#" data-i18n="nav.dash.main" class="menu-item">Dashboard 2</a>
                             </li>
                         </ul>
                     </li>
@@ -130,7 +128,7 @@
                         <ul class="menu-content">
                             <li class="not-active"><a href="{% url 'cadastrar_funcionario' %}" data-i18n="nav.dash.main" class="menu-item">Funcionario</a>
                             </li>
-                            <li class="not-active"><a href="#" data-i18n="nav.dash.main" class="menu-item">Assistido</a>
+                            <li class="not-active"><a href="{% url 'cadastrar_assistido' %}" data-i18n="nav.dash.main" class="menu-item">Assistido</a>
                             </li>
                         </ul>
                     </li>
