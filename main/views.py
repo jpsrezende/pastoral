@@ -15,3 +15,7 @@ def cadastro_assistido(request):
 
 def template_base(request):
     return render(request, 'template_base.html')
+
+
+def agendamento(request):
+    return render(request, 'agendamento.html')

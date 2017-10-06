@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^cadastrar/funcionario', views.cadastro_funcionario, name='cadastrar_funcionario'),
     url(r'^cadastrar/assistido', views.cadastro_assistido, name='cadastrar_assistido'),
     url(r'^base', views.template_base, name='template_base'),
+    url(r'^agendamento', views.agendamento, name='agendamento'),
 ]
