@@ -35,21 +35,20 @@
 
 								<h4 class="form-section"><i class="icon-clipboard4"></i> Informação Geral</h4>
 								
-								
 								<div class="row">
 
 									<div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="issueinput4">Data do Agendamento</label>
-                                            <input type="date" id="issueinput4" class="form-control" name="datefixed" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Fixed">
+                                            <label for="input1">Data do Agendamento</label>
+                                            <input type="date" id="input1" class="form-control" name="data_agendamento" data-toggle="tooltip" data-trigger="hover" data-placement="top" data-title="Date Fixed">
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
 										<div class="form-group">
-											<label for="timesheetinput5">Hora do Agendamento</label>
+											<label for="input2">Hora do Agendamento</label>
 											<div class="position-relative">
-												<input type="time" id="timesheetinput5" class="form-control" name="starttime">
+												<input type="time" id="input2" class="form-control" name="hora_agendamento">
 											</div>
 										</div>
 									</div>
@@ -61,13 +60,13 @@
                                     	<div class="row">
                                     		<div class="col-md-9">
                                     			<div class="form-group">
-											<label for="projectinput1">Assistido</label>
-											<input type="text" id="projectinput1" class="form-control" placeholder="Assistido" name="fname">
+											<label for="input3">Assistido</label>
+											<input type="text" id="input3" class="form-control" placeholder="Assistido" name="assistido">
 										</div>
                                     		</div>
                                     		<div class="col-md-3">
                                     			<div class="form-group">
-                                    				<label for="projectinputpesq">Pesquisar</label><br>
+                                    				<label for="input4">Pesquisar</label><br>
                                     				<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#default">
 															Pesquisar
 													</button>
@@ -83,8 +82,8 @@
 																</div>
 															  	<div class="modal-body">
 																	<div class="form-group">
-																		<label for="projectinputww">Nome</label>
-																		<select id="projectinputww" name="interested" class="form-control">
+																		<label for="input5">Nome</label>
+																		<select id="input5" name="interested" class="form-control">
 																			<option value="none" selected="" disabled="">Selecionar</option>
 																			<option value="Lista">Lista</option>			
 																		</select>
@@ -105,18 +104,19 @@
 
                                     <div class="col-md-6">
                                         <div class="form-group">
-											<label for="projectinput5">Serviço</label>
-											<select id="projectinput5" name="interested" class="form-control">
+											<label for="input6">Serviço</label>
+											<select id="input6" name="servico" class="form-control">
 												<option value="none" selected="" disabled="">Selecionar</option>
-												<option value="Serviço">Serviço</option>											
+												<option value="Remédios">Remédios</option>
+                                                <option value="Alimentos">Alimentos</option>
 											</select>
 										</div>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-									<label for="projectinput8">Observação</label>
-									<textarea id="projectinput8" rows="5" class="form-control" name="comment" placeholder="Observação"></textarea>
+									<label for="input7">Observação</label>
+									<textarea id="input7" rows="5" class="form-control" name="observacao" placeholder="Observação"></textarea>
 								</div>
                                 
 							</div>
