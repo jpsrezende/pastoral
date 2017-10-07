@@ -19,3 +19,7 @@ def template_base(request):
 
 def agendamento(request):
     return render(request, 'agendamento.html')
+
+
+def dados_usuario(request):
+    return render(request, 'dados_usuario.html')
