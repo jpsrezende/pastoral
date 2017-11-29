@@ -27,3 +27,7 @@ def agendamento(request):
 
 def dados_usuario(request):
     return render(request, 'dados_usuario.html')
+
+
+def table(request):
+    return render(request, 'table.html')
